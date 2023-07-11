@@ -18,7 +18,7 @@
     font-weight: 800;
 }
 
-.header-description {
+.description {
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
     font-size: 18px;
@@ -43,10 +43,10 @@
 .bonas-secction {
     max-width: 2000px;
     margin: auto;
+    text-align: center;
 }
 
 .bonas-secction>div {
-    text-align: center;
     margin-bottom: 128px;
 }
 
@@ -75,4 +75,22 @@
     width: 314px;
     height: 471px;
     padding: 110px 78px 0px 78px;
+}
+
+.second-main-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 400px;
+    background: rgba(229, 84, 115, 0.05);
+}
+#second-section-title{
+    font-size: 40px;
+    font-weight: 800;
+}
+#second-section-title>span{
+    color: #E55473;;
+}
+.second-main-section>div{
+    text-align: center;
 }
