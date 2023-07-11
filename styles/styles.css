@@ -1,6 +1,45 @@
 * {
     font-family: 'Lato', sans-serif;
 }
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: wheat;
+}
+.logo-of-nav{
+    width: 300px;
+    border-radius: 50%;
+}
+.navigetion-title{
+    display: flex;
+    align-items: center;
+    font-size: 80px;
+    font-weight: 800;
+}
+.navigetion-title ul{
+    display: flex;
+    list-style: none;
+    margin-right: 50px;
+}
+.navigetion-title li{
+    margin-right: 50px;
+}
+
+.menu:hover{
+    color:white;
+}
+.navigetion-title a{
+    text-decoration: none;
+    color: #111010;
+}
+.Search-bar{
+    width: 700px;
+    height: 65px;
+}
+.navigetion-title :-ms-input-placeholder{
+    font-size: 22px;
+}
 
 .header {
     display: flex;
