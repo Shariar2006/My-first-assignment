@@ -4,14 +4,11 @@
 
 .header {
     display: flex;
+    padding: 90px 240px 0px 240px;
     align-items: center;
     justify-content: space-between;
-    padding: 90px 240px 147px 240px;
     background-color: rgba(229, 84, 115, 0.10);
-    background-image: url('../Flower/pngwing\ 10.png');
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: contain;
+    margin-bottom: 100px;
 }
 
 
@@ -37,4 +34,45 @@
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
+}
+
+.header-imagge {
+    width: 635px;
+}
+
+.bonas-secction {
+    max-width: 2000px;
+    margin: auto;
+}
+
+.bonas-secction>div {
+    text-align: center;
+    margin-bottom: 128px;
+}
+
+.bonas-secction-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.bonas-secction-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+#bonas-secction-images img {
+
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
+}
+
+.bonas-image {
+    width: 314px;
+    height: 471px;
+    padding: 110px 78px 0px 78px;
 }
